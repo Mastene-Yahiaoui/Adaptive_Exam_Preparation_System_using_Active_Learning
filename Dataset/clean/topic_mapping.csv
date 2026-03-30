@@ -1,0 +1,151 @@
+Question ID,question_text,suggested_topic,quiz_num
+1,Which of the following activities is a data mining task?,Data Mining Tasks,1
+2,What is the range of values possible for the cosine measure?,Similarity Measures,1
+3,Is the cosine measure sensitive to scaling ?,Similarity Measures,1
+4,Is the Euclidean distance sensitive to scaling ?,Similarity Measures,1
+5,"If two objects have a cosine measure of 1, are they identical?",Similarity Measures,1
+6,"To reduce the size of a daily time series, it is often preferable to:",Time Series Data,1
+7,Discrete variables cannot be ratio,Data Types,1
+8,What is the maximum value of Jaccard coefficient between two strings of 10 binary attributes?,Data Types,1
+9,What does it mean when two variables have a linear correlation coefficient equal to 0?,Similarity Measures,1
+10,What method is used to fill missing values in a DataFrame with a specific value in Pandas?,Programming Tools (NumPy/Pandas),1
+11,"Which Pandas method is used to calculate the mean, median, and other summary statistics ?",Programming Tools (NumPy/Pandas),1
+12,Which of the following functions can be used to create a NumPy array from a Python list?,Programming Tools (NumPy/Pandas),1
+13,What is the shape of a NumPy array?,Programming Tools (NumPy/Pandas),1
+14,What is the type of this attribute: Social security number,Data Types,1
+15,What is the type of this attribute: Number of courses registered by a student in a semester,Data Types,1
+16,What is the type of this attribute: Speed of a car (in miles per hour),Data Types,1
+17,"What is the type of this attribute: Movie ratings provided by users: 1, 2, 3, or 4-stars",Data Types,1
+18,In which task does the primary goal involve finding patterns or relationships between variables without the need for predefined labels or categories?,Unsupervised Learning,1
+19,An algorithm that finds relationships between items in a transactional database is used for:,Unsupervised Learning,1
+20,"Which task involves predicting a binary outcome, typically represented as 0 or 1?",Data Types,1
+21,What data mining task is often employed to determine the relationship between a dependent variable and one or more independent variables in order to make predictions?,Data Mining Tasks,1
+22,In which task do you aim to reduce the number of attributes in a dataset while preserving the most relevant information?,Data Types,1
+23,Which of the following visualization techniques can be used to explore the relationship between two numerical variables?,Unsupervised Learning,1
+24,Which of the following visualization techniques can be used to explore the relationship between a continuous and categorical variable?,Data Types,1
+25,Which of the following visualization techniques can be used to explore the relationship between two categorical variables?,Unsupervised Learning,1
+26,Which statistical measures  are useful for quantifying the dispersion or variation of an attribute?,Data Types,1
+27,What is the primary purpose of data discretization in data pre-processing?,Data Preprocessing,1
+28,What is the primary goal of data pre-processing techniques like feature scaling or normalization?,Scaling & Normalization,1
+29,Which data pre-processing technique is used for scaling features to have a mean of 0 and a standard deviation of 1?,Scaling & Normalization,1
+30,What is the primary purpose of data sampling in data pre-processing?,Data Preprocessing,1
+31,What is the primary goal of dimensionality reduction techniques in data mining?,Data Mining Tasks,2
+32,Feature selection aims to:,Feature Selection,2
+33,Which of the following is an example of a feature extraction technique?,Feature Extraction,2
+34,"In PCA, what is the primary goal of orthogonal transformation?",Principal Component Analysis,2
+35,How are principal components in PCA ordered in terms of importance?,Principal Component Analysis,2
+36,Which of the following is an advantage of PCA?,Principal Component Analysis,2
+37,Feature extraction differs from feature selection in that it:,Feature Selection,2
+38,"In PCA, what is the role of eigenvalues and eigenvectors in the dimensionality reduction process?",Principal Component Analysis,2
+39,"In PCA, what are the principal components?",Principal Component Analysis,2
+40,Which principal component explains the most variance in the data?,Principal Component Analysis,2
+41,"In PCA, how is the number of retained principal components is determined?",Principal Component Analysis,2
+42,What is the relationship between the first principal component (PC1) and the second principal component (PC2)?,Principal Component Analysis,2
+43,"When performing PCA, what is the role of the covariance matrix of the original features?",Principal Component Analysis,2
+44,What is the main drawback of using PCA for dimensionality reduction?,Data Mining Tasks,2
+45,"When we apply the SVD decomposition directly on the centered data matrix X, we obtain:",Principal Component Analysis,2
+46,"When a scaled data is uniformly distributed within a sphere centered at the origin, the eigenvalues of the PCs are:",Principal Component Analysis,2
+47,"The information gain of a categorical variable with itself IG(x,x) is equal to:",Decision Trees,2
+48,The maximum value of entropy for a categorical variable with n categories is:,Decision Trees,2
+49,How many trained models are required to select the initial attribute in forward selection when there are 100 original attributes?,Data Types,2
+50,What feature selection technique is capable of identifying intricate relationships and interactions among features when employed as predictors?,Feature Selection,2
+51,What feature selection method would be most suitable for a high-dimensional dataset with millions of features?,Feature Selection,2
+52,"Consider a dataset that can be fully expressed in m dimensions. This dataset is rotated and expressed in a higher n-dimensional space, where n > m. In the PCA decomposition of this rotated dataset, how many eigenvalues will be zero",Principal Component Analysis,2
+53,What is the primary purpose of Feature Subset Selection in data mining?,Feature Selection,2
+54,Which of the following statements is true regarding the information gain of a feature?,Decision Trees,2
+55,"In the context of feature selection, what does ""impurity"" represent when evaluating candidate features?",Feature Selection,2
+56,"In the process of feature selection, what is the role of the ""Objective Function"" and ""Search Strategy""?",Feature Selection,2
+57,"In genetic algorithms for feature selection, what role does the ""crossover operator"" play in the process?",Feature Selection,2
+58,What are the primary advantages of unsupervised feature selection methods when compared to other feature selection methods?,Feature Selection,2
+59,"When comparing feature selection methods, what is a shared disadvantage of both filter and unsupervised methods?",Feature Selection,2
+60,What is a distinguishing characteristic of filter methods in feature selection when compared to  wrapper methods?,Feature Selection,2
+61,What is the impact of outliers on K-means clustering?,K-means Clustering,3
+62,How does the choice of the number of clusters (K) affect the performance of K-means?,K-means Clustering,3
+63,"In agglomerative hierarchical clustering, what does the term ""linkage"" refer to?",Hierarchical Clustering,3
+64,What is the primary goal of unsupervised learning?,Unsupervised Learning,3
+65,What is the primary challenge in evaluating the performance of unsupervised learning algorithms?,Unsupervised Learning,3
+66,How does DBSCAN handle outliers?,DBSCAN,3
+67,"What does the ""dendrogram"" represent in hierarchical clustering?",Hierarchical Clustering,3
+68,"In hierarchical clustering, what is the role of the ""cut-off"" in dendrogram visualization?",Hierarchical Clustering,3
+69,Which criterion is commonly used to determine the optimal number of clusters in K-means?,K-means Clustering,3
+70,"In K-means clustering, how do you determine the optimal number of clusters?",K-means Clustering,3
+71,What is the purpose of a dendrogram in hierarchical clustering?,Hierarchical Clustering,3
+72,Hierarchical clustering is a deterministic algorithm. What does this mean?,Hierarchical Clustering,3
+73,Why is cluster evaluation important?,Model Evaluation,3
+74,"In clustering evaluation, what does entropy measure?",Similarity Measures,3
+75,"In clustering evaluation, what does higher precision mean:",Model Evaluation,3
+76,Which points cannot be directly density-reachable from any border point?,DBSCAN,3
+77,What is the disadvantage of the DBSCAN algorithm?,DBSCAN,3
+78,"Suppose that for a data set: there are m points and K clusters, half the points and clusters are in “more dense” regions, half the points and clusters are in “less dense” regions, and the two regions are well-separated from each other. Which of the following should occur to minimize the squared error when finding K clusters:",K-means Clustering,3
+79,How is entropy used in cluster evaluation?,Decision Trees,3
+80,"Can K-means yield different clusterings with the same K in two runs? If yes, how to determine the best clustering?",K-means Clustering,3
+81,"If DBSCAN has a very large radius (epsilon) and a small MinPoints, what can happen?",DBSCAN,3
+82,"If DBSCAN has a very small radius (epsilon) and a very large MinPoints, what can happen?",DBSCAN,3
+83,"If we use K-means with K=1, where will the centroid be located?",K-means Clustering,3
+84,"If, in DBSCAN, the parameter MinPoints is set to two (2), then:",DBSCAN,3
+85,"In a dataset with three clusters, where the density of the first cluster (C1) is smaller than the second cluster (C2), and the density of the second cluster is smaller than the third one. What cluster should be considered  When setting the radius (epsilon) of DBSCAN  ?",DBSCAN,3
+86,"If the Silhouette coefficient of a data point x is zero, and all clusters are spherical with the same number of points, what does this imply?",Clustering Evaluation,3
+87,"If the Silhouette coefficient of a data point x is negative, and all clusters are spherical with the same number of points, what does this imply?",Clustering Evaluation,3
+88,"If the cluster shapes are non-elliptical, which of the following algorithms may cluster the data incorrectly?",DBSCAN,3
+89,The disadvantage of complete linkage when used to calculate the distance between clusters is:,Similarity Measures,3
+90,"In supervised cluster evaluation, if all examples with a supervised class label are evenly split into two pure clusters, then:",Model Evaluation,3
+91,What is the main purpose of cross-validation in classification?,Classification,4
+92,"What does the term ""overfitting"" refer to in the context of classification models?",Overfitting & Regularization,4
+93,"What does the term ""false positive"" represent in a confusion matrix?",Model Evaluation,4
+94,What is the purpose of pruning in decision trees?,Decision Trees,4
+95,What is the disadvantage of decision trees?,Decision Trees,4
+96,Decision tree learners may create biased trees if some classes dominate. What’s the solution of it?,Decision Trees,4
+97,Which of the following is a disadvantage of leave-one-out cross-validation (LOOCV)?,Cross-Validation,4
+98,What is the advantage of using cross-validation over a single train-test split?,Cross-Validation,4
+99,"What does the term ""stratified cross-validation"" refer to?",Cross-Validation,4
+100,Which of the following is a method to handle imbalanced class distribution in decision trees?,Decision Trees,4
+101,Which of the following is a hyperparameter of Decision Trees:,Decision Trees,4
+102,Which of the following methods can help to fine-tune tree depth in Decision Trees:,Decision Trees,4
+103,Which of the following metrics can be used with a dataset having unbalanced classes:,K-means Clustering,4
+104,How can you detect underfitting from a learning curve?,Overfitting & Regularization,4
+105,Which of the following can be a reason for overfitting:,Overfitting & Regularization,4
+106,Which of the following can be a reason for underfitting:,Overfitting & Regularization,4
+107,Which of the following is true about non-parametric models as compared to parametric models:,Classification,4
+108,How can we handle the problem of underfitting in decision trees:,Decision Trees,4
+109,Which of the following evaluation methods is not appropriate if the size of the data is small?,Model Evaluation,4
+110,What is a decision boundary in the context of decision trees?,Decision Trees,4
+111,The highest possible value of the Gini index for a set containing n different types of objects is:,Decision Trees,4
+112,The highest possible value of the miss classification error rate for a set containing n different types of objects is:,Classification,4
+113,"If we use both Information gain and Gini gain to select the best split in a continuous variable, then:",Decision Trees,4
+114,Which scenario allows a decision tree to split all training data into pure leaves?,Decision Trees,4
+115,How does a decision tree classify an example after training if it encounters a new attribute value that was not considered in a splitting condition?,Decision Trees,4
+116,How does a decision tree manage an example with a missing value in a splitting condition during the testing phase?,Decision Trees,4
+117,How can overfitting be addressed in decision trees?,Decision Trees,4
+118,"To set a baseline for determining if a classifier is acceptable, which of the following could be utilized?",Classification,4
+119,Why does a decision tree struggle with oblique splits?,Decision Trees,4
+120,"When providing a probability estimate for an example's classification using a decision tree, which method would be used?",Decision Trees,4
+121,"In the Apriori algorithm, what is the significance of the ""pruning"" step?",Decision Trees,5
+122,"In the context of association rules, what is lift?",Association Rules,5
+123,What does a high lift value indicate in association rule mining?,Association Rules,5
+124,How does increasing the confidence threshold impact the number of generated association rules?,Association Rules,5
+125,What is the primary advantage of using FP-growth over the Apriori algorithm?,Apriori Algorithm,5
+126,"What role does the ""confidence"" measure play in evaluating association rules?",Association Rules,5
+127,"In the context of association rules, when is a rule considered ""interesting""?",Association Rules,5
+128,"Given that {a,b}, {b,c} and {a,c} are frequent itemsets, then:",Association Rules,5
+129,Which statement is false regarding FP-growth algorithms?,FP-growth,5
+130,Which option is a technique for enhancing the efficiency of the Apriori algorithm?,Apriori Algorithm,5
+131,What describes the relationship between a candidate and frequent itemsets?,Unsupervised Learning,5
+132,What happens when the support is reduced?,Rule Metrics,5
+133,"If both Apriori and FP-Growth are configured with the same support and confidence thresholds and applied to the same dataset, what can we say about the obtained association rules:",Association Rules,5
+134,What is the relationship between support and confidence?,Rule Metrics,5
+135,What is the advantage of grouping transactions for each customer as separate databases:,Association Rules,5
+136,What will happen when grouping items that a customer purchased over different days into a single one transaction?,Association Rules,5
+137,"If {A, B, C, D} is a frequent item set, a candidate rule which is not possible is:",Association Rules,5
+138,"You are working in a company and analyzing all the transactions that happened over the past week. You observe that out of the five hundred transactions that happened, two hundred of them had a mobile phone in them. What is the support for mobile phones in the last week?",Association Rules,5
+139,How does the choice of the minimum support threshold affect the results of association rule mining?,Association Rules,5
+140,What is the main limitation of the Apriori algorithm when dealing with large datasets?,Apriori Algorithm,5
+141,"What is the purpose of the ""join"" operation in the Apriori algorithm?",Data Types,5
+142,"In FP-growth, how does the frequent pattern (FP) tree help discover frequent itemsets?",FP-growth,5
+143,"Explain the concept of ""negative association rules"" and provide a scenario where they might be useful.",Association Rules,5
+144,How can we convert a binary classification problem with binary attributes to an association rule mining task?,Data Types,5
+145,"When a binary classification problem with binary attributes is converted to an association rule mining task, the confidence of the rule is equivalent to:",Data Types,5
+146,"A teacher wants to detect cheating students in a quiz through association rule mining, which approach could be used? Here the item is a combination (Question, Answer).",Association Rules,5
+147,A teacher aims to analyze dependent concepts that hinder understanding of a target concept by analyzing students' quiz answers. Which approach could be effective?,General,5
+148,"Given a rule X⇒Y with Confidence(X⇒Y) > minConf and Support(Y) = 100%, what does this indicate?",Rule Metrics,5
+149,"We have a dataset of transactions, with each transaction associated with a specific customer. What is the most effective method for suggesting personalized products based on the customer's historical purchases?",Association Rules,5
+150,"When we combine frequent K-itemsets to construct (K+1)-itemsets, which of the following statements is accurate?",Association Rules,5
