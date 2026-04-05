@@ -1,0 +1,996 @@
+[
+  {
+    "question": "Which of the following activities is a data mining task?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Dividing the customers of a company according to their gender.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Predicting the future stock price of a company using historical records.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Computing the total sales of a company.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Monitoring the heart rate of a patient for abnormalities",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "What is the range of values possible for the cosine measure?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "[0,1]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "[-1,1]",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "[0, infinity [",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "[-infinity , 0[",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Is the cosine measure sensitive to scaling ?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Yes",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "No",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Is the Euclidean distance sensitive to scaling ?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "If two objects have a cosine measure of 1, are they identical?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Yes",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "No",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "To reduce the size of a daily time series, it is often preferable to:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Sample a weekly value",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Use binning to reduce the number of data points.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Aggregate the values over the course of the week.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Discrete variables cannot be ratio",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What is the maximum value of Jaccard coefficient between two strings of 10 binary attributes?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "1",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "0.5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "2",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What does it mean when two variables have a linear correlation coefficient equal to 0?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "There is no linear correlation between the two variables.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "There is no correlation between the two variables.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The two variables are nonlinearly correlated.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The two variables are linearly correlated.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What method is used to fill missing values in a DataFrame with a specific value in Pandas?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "df.impute(value)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "df.nullify(value)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "df.replace_nulls(value)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "df.fillna(value)",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which Pandas method is used to calculate the mean, median, and other summary statistics ?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "df.summarize()",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "df.statistics()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "df.describe()",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "df.summarystats()",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Which of the following functions can be used to create a NumPy array from a Python list?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "numpy.array()",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "numpy.create_array()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "numpy.from_list()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "numpy.array_from_list()",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What is the shape of a NumPy array?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The data type of the array",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The size of the first dimension of the array",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The number of elements in each dimension",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "The total number of elements in the array",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the type of this attribute: Social security number",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Binary",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Discrete",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Continuous",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Nominal",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "Ordinal",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Interval",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "Ratio",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "What is the type of this attribute: Number of courses registered by a student in a semester",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Binary",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Discrete",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Continuous",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Nominal",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Ordinal",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Interval",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "Ratio",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      1,
+      6
+    ]
+  },
+  {
+    "question": " What is the type of this attribute: Speed of a car (in miles per hour)",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Binary",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Discrete",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Continuous",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Nominal",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Ordinal",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Interval",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "Ratio",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2,
+      6
+    ]
+  },
+  {
+    "question": "What is the type of this attribute: Movie ratings provided by users: 1, 2, 3, or 4-stars",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Binary",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Discrete",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Continuous",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Nominal",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Ordinal",
+        "isCorrect": true
+      },
+      {
+        "index": 5,
+        "text": "Interval",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "Ratio",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1,
+      4
+    ]
+  },
+  {
+    "question": "In which task does the primary goal involve finding patterns or relationships between variables without the need for predefined labels or categories?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Classification",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Regression",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Dimensionality Reduction",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Clustering",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "Association Rules",
+        "isCorrect": true
+      },
+      {
+        "index": 5,
+        "text": "Anomaly Detection",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ]
+  },
+  {
+    "question": "An algorithm that finds relationships between items in a transactional database is used for:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Classification",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Regression",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Dimensionality Reduction",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Clustering",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Association Rules",
+        "isCorrect": true
+      },
+      {
+        "index": 5,
+        "text": "Anomaly Detection",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      4
+    ]
+  },
+  {
+    "question": "Which task involves predicting a binary outcome, typically represented as 0 or 1?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Classification",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Regression",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Dimensionality Reduction",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Clustering",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Association Rules",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Anomaly Detection",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      0,
+      5
+    ]
+  },
+  {
+    "question": "What data mining task is often employed to determine the relationship between a dependent variable and one or more independent variables in order to make predictions?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Classification",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Regression",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Dimensionality Reduction",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Clustering",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Association Rules",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Anomaly Detection",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": " In which task do you aim to reduce the number of attributes in a dataset while preserving the most relevant information?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Classification",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Regression",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Dimensionality Reduction",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Clustering",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Association Rules",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Anomaly Detection",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Which of the following visualization techniques can be used to explore the relationship between two numerical variables?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Scatter plot",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Bar chart",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Box plot",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Heatmap",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "Histogram",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "Which of the following visualization techniques can be used to explore the relationship between a continuous and categorical variable?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Scatter plot",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Bar chart",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Box plot",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Heatmap",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Histogram",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Which of the following visualization techniques can be used to explore the relationship between two categorical variables?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Scatter plot",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Bar chart",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Box plot",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Heatmap",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "Histogram",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Which statistical measures  are useful for quantifying the dispersion or variation of an attribute?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Variance",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Median Absolute Deviation (MAD)",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Range",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Mode",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Covariance",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Interquartile mean (IQM)",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "What is the primary purpose of data discretization in data pre-processing?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "To remove missing values from the dataset",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To convert categorical data into numerical data",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "To reduce the number of distinct values in a continuous feature",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "To perform clustering on the data",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "To normalize data using z-score scaling",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the primary goal of data pre-processing techniques like feature scaling or normalization?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "To increase the dimensionality of the data",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To add more features to the dataset",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "To reduce the impact of outliers",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "To make the data more complex",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "To improve the convergence of machine learning algorithms",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Which data pre-processing technique is used for scaling features to have a mean of 0 and a standard deviation of 1?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Z-Score Scaling",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Min-Max Scaling",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Discretization",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "PCA",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Aggregation",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What is the primary purpose of data sampling in data pre-processing?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "To reduce the number of features in the dataset",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To create a representative subset of the dataset",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "To merge two or more datasets",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To convert categorical data into numerical data",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "To perform dimensionality reduction",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  }
+]

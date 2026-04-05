@@ -1,0 +1,867 @@
+[
+  {
+    "question": "What is the main purpose of cross-validation in classification?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Feature selection",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Model evaluation",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Hyperparameter tuning",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What does the term \"overfitting\" refer to in the context of classification models?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The model performs well on training data but poorly on unseen data",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The model performs poorly on both training and unseen data",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The model is perfectly generalized to any data",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The model has too many parameters",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What does the term \"false positive\" represent in a confusion matrix?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Instances correctly identified as positive",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Instances incorrectly identified as positive",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Instances correctly identified as negative",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Instances incorrectly identified as negative",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What is the purpose of pruning in decision trees?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Increase model complexity",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Reduce overfitting",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Reduce the number of parameters",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Reduce model interpretability",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What is the disadvantage of decision trees?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Prone to overfitting",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Not robust to outliers",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Sensitive to feature scaling",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Suitable for linear relationships only",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Decision tree learners may create biased trees if some classes dominate. What’s the solution of it?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Balance the dataset prior to fitting",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Imbalance the dataset prior to fitting",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Balance the dataset after fitting",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Which of the following is a disadvantage of leave-one-out cross-validation (LOOCV)?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "High computational cost",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Overestimation of model performance",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Limited model generalization",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Biased toward larger datasets",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What is the advantage of using cross-validation over a single train-test split?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It guarantees a larger training set",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It provides multiple evaluations and provides a robust estimation",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "It speeds up the training process",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It simplifies the model evaluation process",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What does the term \"stratified cross-validation\" refer to?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Ensuring an equal distribution of target classes in each fold",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Prioritizing one class over others during validation",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Excluding certain features from the validation set",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Randomly shuffling the data before splitting",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Which of the following is a method to handle imbalanced class distribution in decision trees?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Feature scaling",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Stratified sampling",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Random shuffling",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Increasing the tree depth",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Which of the following is a hyperparameter of Decision Trees:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Tree depth",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Minimum number of samples in leafs",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Minimum number of samples to split nodes",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which of the following methods can help to fine-tune tree depth in Decision Trees:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Trial and error",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Random search",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Learning curve",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which of the following metrics can be used with a dataset having unbalanced classes:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Accuracy",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "F-Score",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Precision",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "How can you detect underfitting from a learning curve?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Bad results in train, but good results in test",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Good results in train, but bad results in test",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Bad results in both train and test",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Which of the following can be a reason for overfitting:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Insufficient training data",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Excessive model complexity",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Too many training iterations",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which of the following can be a reason for underfitting:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Insufficient model complexity",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Excessive training data",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Too many training epochs",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Which of the following is true about non-parametric models as compared to parametric models:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "They don't make prior assumptions on data's probability distribution",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "They are often more flexible and achieve better accuracy",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "They require more training data",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "How can we handle the problem of underfitting in decision trees:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Increase the size of the tree",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Add more attributes",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Increase the size of the data",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which of the following evaluation methods is not appropriate if the size of the data is small?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Holdout Method",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Cross-validation",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Leave-One-Out Approach",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What is a decision boundary in the context of decision trees?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Rectilinears that separate different classes in the feature space",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The point at which a decision tree splits the data",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "A measure of the complexity of a decision tree",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "The highest possible value of the Gini index for a set containing n different types of objects is:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "log(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "The highest possible value of the miss classification error rate for a set containing n different types of objects is:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "(n-1)/n",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "If we use both Information gain and Gini gain to select the best split in a continuous variable, then:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "We may find the same split position, as both measures (Gini and entropy) are consistent.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We might find different split positions even though the measures (Gini and entropy) are consistent.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "We cannot find the same split positions, as the measures (Gini and entropy) used are inconsistent.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We may find different split positions because the measures (Gini and entropy) used are inconsistent.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Which scenario allows a decision tree to split all training data into pure leaves?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "When some samples have identical attributes but belong to different classes.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Splitting into pure leaves is not possible.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "If two examples belong to different classes, they must have at least one differing attribute.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "How does a decision tree classify an example after training if it encounters a new attribute value that was not considered in a splitting condition?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The example is not classified.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The most frequent class at the current node is assigned to the example",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "A random value from the supported attribute values is chosen, and the classification process continues.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "How does a decision tree manage an example with a missing value in a splitting condition during the testing phase?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The most common branch is chosen for the missing value.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The example is not classified.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "A random value from the supported attribute values is chosen, and the classification process continues.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "How can overfitting be addressed in decision trees?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Use of post-pruning.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Use of pre-pruning.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Using as voting among multiple decision trees.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "To set a baseline for determining if a classifier is acceptable, which of the following could be utilized?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The number of training examples in the minority class divided by the total number of training examples.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The inverse of the number of classes (1 divided by the number of classes)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The number of training examples in the majority class divided by the total number of training examples",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Why does a decision tree struggle with oblique splits?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Oblique splits are nonlinear.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It results from underfitting.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Only a single attribute is evaluated in each split condition.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "When providing a probability estimate for an example's classification using a decision tree, which method would be used?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The probability is estimated based on the class frequencies in the leaf node where the example is classified.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The probability is considered 1, as the path to this node indicates certainty in the majority class occurrence.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The probability is derived using the entropy at the leaf node where the classification occurs.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  }
+]

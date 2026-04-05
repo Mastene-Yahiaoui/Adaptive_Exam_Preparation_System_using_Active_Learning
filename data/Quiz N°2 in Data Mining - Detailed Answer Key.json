@@ -1,0 +1,895 @@
+[
+  {
+    "question": "What is the primary goal of dimensionality reduction techniques in data mining?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "To increase the number of features.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To improve model performance.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "To add noise to the data.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To create complex models.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "To reduce model complexity.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      1,
+      4
+    ]
+  },
+  {
+    "question": "Feature selection aims to:",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Create new features from the existing ones",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Reduce the number of irrelevant or redundant features",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Increase the complexity of the model",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Enhance the interpretability of the model",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "Introduce noise to the data",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a feature extraction technique?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Recursive Feature Elimination (RFE).",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Principal Component Analysis (PCA).",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Information Gain.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Forward Selection.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Decision Trees.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "In PCA, what is the primary goal of orthogonal transformation?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "To increase the number of features.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To create correlated features.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "To reduce the number of features.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "To amplify noise in the data.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "To make the data non-linear.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "How are principal components in PCA ordered in terms of importance?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Randomly.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By their magnitude of eigenvalues.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Alphabetically.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "By their position in the original dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "By their correlation with the target variable.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Which of the following is an advantage of PCA?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "It guarantees that no information is lost during dimensionality reduction.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It helps to interpret the meaning of the original features.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It is not affected by multicollinearity in the data.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It can be applied to high-dimensional data efficiently.",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "It is only applicable to categorical data.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Feature extraction differs from feature selection in that it:",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Create new features to the dataset.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Only selects the most important features, without creating new ones.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Reduces the number of observations in the dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Randomly shuffles the order of the features.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "Converts categorical variables into numerical ones.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "In PCA, what is the role of eigenvalues and eigenvectors in the dimensionality reduction process?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Determine the direction of the principal components.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Used to scale the original features.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Used to sort the data.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Used to identify the principal components.",
+        "isCorrect": true
+      },
+      {
+        "index": 4,
+        "text": "Represent the number of samples in the dataset.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "In PCA, what are the principal components?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Original features of the dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The features selected through feature selection.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Linear combinations of the original features.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "The most important data points.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Which principal component explains the most variance in the data?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "The first principal component.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The last principal component.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It depends on the dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All principal components explain the same variance.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "In PCA, how is the number of retained principal components is determined?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "By choosing a fixed number.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By selecting all the components.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Based on cumulative explained variance.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Chosen randomly.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the relationship between the first principal component (PC1) and the second principal component (PC2)?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "PC1 and PC2 are always orthogonal to each other.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "PC1 is a linear combination of PC2.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "PC2 is a scaled version of PC1.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "PC1 and PC2 have opposite directions.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "When performing PCA, what is the role of the covariance matrix of the original features?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "It's used to calculate the eigenvalues.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "It's transformed into a correlation matrix.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It's not used in PCA.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It's used to calculate the principal components.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "What is the main drawback of using PCA for dimensionality reduction?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "It can lead to overfitting.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It may not preserve the interpretability of the original features.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "It can be sensitive to outliers in the data.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It is computationally expensive.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "When we apply the SVD decomposition directly on the centered data matrix X, we obtain:",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "The same eigenvectors and eigenvalues of the covariance matrix.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The same eigenvectors, but different eigenvalues of the covariance matrix.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Different eigenvectors and the same eigenvalues of the covariance matrix.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Different eigenvectors and different eigenvalues of the covariance matrix.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "When a scaled data is uniformly distributed within a sphere centered at the origin, the eigenvalues of the PCs are:",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Equal for all principal components (All Equal).",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Varied (Different).",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "All equal to zero (All equal to Zero).",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "The information gain of a categorical variable with itself IG(x,x) is equal to:",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Entropy(x)",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0.5",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "The maximum value of entropy for a categorical variable with n categories is:",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "n",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "log2(n)",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "1/(n-1)",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "How many trained models are required to select the initial attribute in forward selection when there are 100 original attributes?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "50",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "100",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "1000",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What feature selection technique is capable of identifying intricate relationships and interactions among features when employed as predictors?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Wrapper methods.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Filter methods.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Unsupervised feature selection.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What feature selection method would be most suitable for a high-dimensional dataset with millions of features?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Wrapper method.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Filter method.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Backward elimination.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Consider a dataset that can be fully expressed in m dimensions. This dataset is rotated and expressed in a higher n-dimensional space, where n > m. In the PCA decomposition of this rotated dataset, how many eigenvalues will be zero",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "m eigenvalues will be zero.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "n eigenvalues will be zero.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "n - m eigenvalues will be zero.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "No eigenvalues will be zero.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the primary purpose of Feature Subset Selection in data mining?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "To increase the complexity of the model.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To reduce the generalization capabilities of the model.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "To introduce noise to the data.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To evaluate a large number of features and select a few for the final implementation.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which of the following statements is true regarding the information gain of a feature? ",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Information gain is always high for features with high cardinality.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Information gain is independent of the target variable.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Information gain measures how much a feature reduces uncertainty about the target variable when added to the model.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "In the context of feature selection, what does \"impurity\" represent when evaluating candidate features? ",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "The cost of including a feature in the model.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The level of unpredictability or disorder in the data when using a feature.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "The complexity of the dataset after adding a feature.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Impurity is not relevant in feature selection.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "In the process of feature selection, what is the role of the \"Objective Function\" and \"Search Strategy\"?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "The objective function guides the search strategy in finding feature subsets, while the search strategy quantifies the quality of subsets.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The search strategy is responsible for guiding the search process efficiently, while the objective function evaluates the quality of candidate feature subsets.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Both are two interchangeable terms describing the same concept.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Both are unrelated to the process of feature selection.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "In genetic algorithms for feature selection, what role does the \"crossover operator\" play in the process? ",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Determines which features should be removed from the dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Selects the best individual feature from the population.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Combines information from two parent feature subsets to create new feature subsets.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Evaluates the fitness of the entire population.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What are the primary advantages of unsupervised feature selection methods when compared to other feature selection methods?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Unsupervised methods guarantee the selection of the best features.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Unsupervised methods optimize for prediction accuracy.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Unsupervised methods handle feature interaction effectively.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Unsupervised methods do not require labels for feature selection.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "When comparing feature selection methods, what is a shared disadvantage of both filter and unsupervised methods? ",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "They are computationally intensive.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "They require domain knowledge for effective use.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "They may miss complex relationships and interactions between features.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "They are typically slow and not scalable.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is a distinguishing characteristic of filter methods in feature selection when compared to  wrapper methods?",
+    "type": "CHECKBOX",
+    "options": [
+      {
+        "index": 0,
+        "text": "Filter methods optimize for specific machine learning algorithms.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Filter methods are computationally intensive and thorough.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Filter methods evaluate features independently using statistical measures.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Filter methods rely on domain knowledge for feature selection.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  }
+]

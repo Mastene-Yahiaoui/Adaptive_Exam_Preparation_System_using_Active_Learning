@@ -1,0 +1,867 @@
+[
+  {
+    "question": "What is the impact of outliers on K-means clustering?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Outliers have no impact on K-means.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Outliers can significantly influence the position of centroids.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "K-means automatically identifies and excludes outliers.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Outliers are treated as separate clusters.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "How does the choice of the number of clusters (K) affect the performance of K-means?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It has no impact on the performance.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "An inappropriate choice can lead to poor clustering results.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "K-means automatically determines the optimal number of clusters.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "An inappropriate choice may label some data points as outliers.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "In agglomerative hierarchical clustering, what does the term \"linkage\" refer to?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The connectivity between data points.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The order in which clusters are merged.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The distance measure between clusters.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "The density of clusters.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the primary goal of unsupervised learning?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Minimize prediction errors.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Predict target labels for new data points.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Discover patterns and relationships within data.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "Classify data points into predefined categories.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the primary challenge in evaluating the performance of unsupervised learning algorithms?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Lack of labeled data for comparison.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Overfitting to the training dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Difficulty in handling outliers.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Inability to handle non-linear relationships.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "How does DBSCAN handle outliers?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Assigns them to the nearest cluster",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Labels them as noise/outliers",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Includes them in all clusters",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Computes a separate cluster for outliers",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What does the \"dendrogram\" represent in hierarchical clustering?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Cluster centroids",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Cluster assignments",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Cluster density",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "In hierarchical clustering, what is the role of the \"cut-off\" in dendrogram visualization?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Define the number of clusters",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Determine the linkage method",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Set the convergence threshold",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Control the learning rate",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Which criterion is commonly used to determine the optimal number of clusters in K-means?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Silhouette coefficient",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Entropy",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Precision",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "F1-score",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": " In K-means clustering, how do you determine the optimal number of clusters?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Use a scree plot to identify the elbow point",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Use a random number generator to pick the number of clusters",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Use a dendrogram to visualize the hierarchical structure of the data",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Use a confusion matrix to assess the accuracy of the clustering",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What is the purpose of a dendrogram in hierarchical clustering? ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "To show the relationship between the clusters",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "To identify the optimal number of clusters",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "To determine the direction of the clusters",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To assess the quality of the clusters",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Hierarchical clustering is a deterministic algorithm. What does this mean? ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The results of the algorithm will always be the same, regardless of the input data",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The results of the algorithm will be different, depending on the order in which the data is processe",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The results of the algorithm will be different, depending on the choice of linkage metho",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The results of the algorithm will be different, depending on the initialization of the clusters.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Why is cluster evaluation important? ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "To ensure that the clustering results are accurate and reliable",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To check non-randomness in the data",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "To select the best clustering algorithm for a particular task",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "In clustering evaluation, what does entropy measure? ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The homogeneity of the clusters in terms of class labels",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The fraction of correct assignments",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "How compact clusters are",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Distance between centroids",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": " In clustering evaluation, what does higher precision mean: ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "More objects of a class in a cluster",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "More clusters containing a class",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Larger fraction of a cluster is one class",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "More distinct clusters",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Which points cannot be directly density-reachable from any border point?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Another border point",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A noise point",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "A core point",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Any of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What is the disadvantage of the DBSCAN algorithm? ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Poor performance on high-dimensional data",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Requires many scans of the dataset",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Sensitive to the order of data points",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Unable to detect clusters of varying density",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Suppose that for a data set: there are m points and K clusters, half the points and clusters are in “more dense” regions, half the points and clusters are in “less dense” regions, and the two regions are well-separated from each other. Which of the following should occur to minimize the squared error when finding K clusters:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Centroids should be equally distributed between more dense and less",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "More centroids should be allocated to the less dense region.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "More centroids should be allocated to the denser region.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "How is entropy used in cluster evaluation? ",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Entropy can be used to measure the purity of a cluster, which is the proportion of data points in the cluster that belong to the same class.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Entropy can be used to measure the balance of a cluster, which is the distribution of data points from different classes within the cluster.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Entropy can be used to measure the separation between clusters, which is the difference in the entropy of different clusters.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "Can K-means yield different clusterings with the same K in two runs? If yes, how to determine the best clustering?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "No, this is mathematically impossible.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "No, the same number of clusters K produces the same clustering.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Yes, SSE can be used to select the best cluster.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "If DBSCAN has a very large radius (epsilon) and a small MinPoints, what can happen?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "All the data points will be clustered together",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "All the data points will be considered outliers",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "All the data points will be border points",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": " If DBSCAN has a very small radius (epsilon) and a very large MinPoints, what can happen?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "All the data points will be clustered together",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "All the data points will be considered outliers",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "All the data points will be border points",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "If we use K-means with K=1, where will the centroid be located?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The centroid will be located at some cluster",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The centroid will be the average of all points",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "The centroid will not converge and keep moving",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "If, in DBSCAN, the parameter MinPoints is set to two (2), then:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "All data points will be either core points or outliers (no border points).",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "All data points will be border points.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "No points can be core points.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "In a dataset with three clusters, where the density of the first cluster (C1) is smaller than the second cluster (C2), and the density of the second cluster is smaller than the third one. What cluster should be considered  When setting the radius (epsilon) of DBSCAN  ?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Only the first cluster (C1) with the lowest density is sufficient.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Only the second cluster (C2) is sufficient.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Only the third cluster (C3) with the highest density is sufficient.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "If the Silhouette coefficient of a data point x is zero, and all clusters are spherical with the same number of points, what does this imply?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "This data point x is a centroid of one cluster.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "This data point x is equidistant from two clusters.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "This data point is x is assigned to the incorrect cluster.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "If the Silhouette coefficient of a data point x is negative, and all clusters are spherical with the same number of points, what does this imply?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "This data point x is a centroid of one cluster.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "This data point x is equidistant from two clusters.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "This data point is x is assigned to the incorrect cluster.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "If the cluster shapes are non-elliptical, which of the following algorithms may cluster the data incorrectly?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "K-means",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "DBSCAN",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Hierarchical clustering",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "The disadvantage of complete linkage when used to calculate the distance between clusters is:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Sensitive to outliers",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Unable to handle elliptical clusters",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Tends to divide big clusters into small ones",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "In supervised cluster evaluation, if all examples with a supervised class label are evenly split into two pure clusters, then:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The entropy of the two clusters is 1, the recall of each one is 0.5.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The entropy of the two clusters is 0, the recall of each one is 1.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The entropy of the two clusters is 0, the recall of each one is 0.5.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "The entropy of the two clusters is 1, the recall of each one is 1.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  }
+]

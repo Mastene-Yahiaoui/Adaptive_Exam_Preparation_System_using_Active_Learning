@@ -1,0 +1,862 @@
+[
+  {
+    "question": "In the Apriori algorithm, what is the significance of the \"pruning\" step?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It removes infrequent itemsets from consideration.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "It adds more itemsets to the frequent itemsets list.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It increases the minimum support threshold.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It reorganizes the transaction database.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "In the context of association rules, what is lift?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It measures the overall strength of the association between items.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It quantifies the likelihood of a rule being true.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It indicates the independence of items.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "It represents the size of the dataset.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What does a high lift value indicate in association rule mining?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Strong association between items.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Weak association between items.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "No association between items.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Perfect correlation between items.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "How does increasing the confidence threshold impact the number of generated association rules?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Increases the number of rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Decreases the number of rules.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Has no effect on the number of rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Randomly affects the number of rules.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What is the primary advantage of using FP-growth over the Apriori algorithm?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It requires fewer passes over the dataset.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "It has higher accuracy in rule discovery.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It can only handle binary data.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It is more straightforward to implement.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What role does the \"confidence\" measure play in evaluating association rules?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It quantifies the likelihood of a rule being true.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "It measures the overall strength of the association between items.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It determines the frequency of individual items.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It represents the size of the dataset.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "In the context of association rules, when is a rule considered \"interesting\"?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "When it has low confidence and high support.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "When it has high confidence and support=50%.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "When it has high confidence and support=100%.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "When it has low confidence and low support.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Given that {a,b}, {b,c} and {a,c} are frequent itemsets, then:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "{a,b,c} is always frequent.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "{a,b,c} is never frequent.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The frequency of {a,b,c} cannot be determined from the given information.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "Which statement is false regarding FP-growth algorithms?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It discovers frequent itemsets without generating candidates.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "There is a possibility that FP trees may not fit into memory.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Building FP trees is a cost-effective process.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It enlarges the original database to construct FP trees.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Which option is a technique for enhancing the efficiency of the Apriori algorithm?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Hash-based techniques.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Transaction Increases.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Sampling.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Cleaning.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What describes the relationship between a candidate and frequent itemsets?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "A candidate itemset is always a frequent itemset.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A frequent itemset must be a candidate itemset.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "No relation exists between these two.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What happens when the support is reduced?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The number of frequent itemsets remains the same.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Some itemsets will be added to the current set of frequent itemsets.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Some itemsets will become infrequent, while others will become frequent.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It cannot be determined.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "If both Apriori and FP-Growth are configured with the same support and confidence thresholds and applied to the same dataset, what can we say about the obtained association rules:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Apriori and FP growth will give the same rules.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Apriori and FP growth will give different rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "We cannot say anything about it.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What is the relationship between support and confidence?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Support is always larger than or equal to confidence.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Confidence is always larger than or equal to support.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Support and confidence have no necessary relationships.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the advantage of grouping transactions for each customer as separate databases:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Extract personalized association rules.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Extract non-personalized association rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Reduce the number of rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "There is no advantage.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "What will happen when grouping items that a customer purchased over different days into a single one transaction?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Association rules between some items may be lost.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "The computational complexity may increase significantly.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The size of the dataset will increase significantly.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "If {A, B, C, D} is a frequent item set, a candidate rule which is not possible is:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "C –> A",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "D –> ABCD",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "A –> BC",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "B–> ADC",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "You are working in a company and analyzing all the transactions that happened over the past week. You observe that out of the five hundred transactions that happened, two hundred of them had a mobile phone in them. What is the support for mobile phones in the last week?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "0.3",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "0.4",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "0.5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0.6",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "How does the choice of the minimum support threshold affect the results of association rule mining?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "A higher minimum support threshold leads to more rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A lower minimum support threshold leads to more rules.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "The minimum support threshold has no impact on the number of rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It affects the accuracy but not the number of rules.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What is the main limitation of the Apriori algorithm when dealing with large datasets?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It requires one passe over the dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It cannot handle categorical data.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It is computationally expensive.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "The number of generated rules is unpredictable.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What is the purpose of the \"join\" operation in the Apriori algorithm?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It combines frequent itemsets to form candidate itemsets.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "It removes infrequent itemsets from consideration.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "It calculates the confidence of association rules.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It organizes the transaction database.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "In FP-growth, how does the frequent pattern (FP) tree help discover frequent itemsets?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The FP tree is used to filter out infrequent itemsets from the dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The FP tree is constructed to represent the hierarchical relationships between items, aiding efficient pattern discovery.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "The FP tree is used to sort the itemsets.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The FP tree is a visualization tool for displaying frequent itemsets.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Explain the concept of \"negative association rules\" and provide a scenario where they might be useful.",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Negative association rules are not a valid concept in association rule mining.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Negative association rules indicate items that should not be bought together; they are useful in preventing incompatible purchases.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Negative association rules represent items that have a weak association; they help explore subtle relationships.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "How can we convert a binary classification problem with binary attributes to an association rule mining task?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "By treating attributes as items and identifying a frequent rule.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By treating both attributes and the target as items, aiming to discover frequent rules 'attributes ⇒ target'.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "By treating both attributes and the target as items, with the goal of discovering frequent rules: 'attributes ⇒ target' and 'attributes ⇒ not(target)'.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "When a binary classification problem with binary attributes is converted to an association rule mining task, the confidence of the rule is equivalent to:",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "The precision in training set.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The recall in training set.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "The accuracy in training set.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": true
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "A teacher wants to detect cheating students in a quiz through association rule mining, which approach could be used? Here the item is a combination (Question, Answer).",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Identifying itemsets of correct (Question, Answer) pairs.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Identifying itemsets of incorrect (Question, Answer) pairs.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Cheating involves using ChatGPT, not copying from peers, and is undetectable with association rule mining.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "A teacher aims to analyze dependent concepts that hinder understanding of a target concept by analyzing students' quiz answers. Which approach could be effective?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Identify high confidence rules where the antecedent is an incorrect answer to a question of the target concept, and the consequent is incorrect answers to questions of prerequisite concepts.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Identify high confidence rules where the consequent is an incorrect answer to a question of the target concept, and the antecedent t is incorrect answers to questions of prerequisite concepts.",
+        "isCorrect": true
+      },
+      {
+        "index": 2,
+        "text": "Identify high confidence rules where the antecedent is an correct answer to a question of the target concept, and the consequent is incorrect answers to questions of prerequisite concepts.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "Given a rule X⇒Y with Confidence(X⇒Y) > minConf and Support(Y) = 100%, what does this indicate?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "This rule is ineffective because knowing X doesn't provide additional information about Y.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "This rule is valuable due to its high confidence.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "This rule is ineffective because it appears in all transactions.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "question": "We have a dataset of transactions, with each transaction associated with a specific customer. What is the most effective method for suggesting personalized products based on the customer's historical purchases?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "Extract rules having high confidence from the whole dataset.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Extract rules having high confidence from the dataset that contains only the transaction of this specific customer.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "Extract rule having high confidence from the dataset that contains only the transaction of this specific customer if the number of the customer transaction exceeds a threshold otherwise extract the association rules from the entire dataset.",
+        "isCorrect": true
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "When we combine frequent K-itemsets to construct (K+1)-itemsets, which of the following statements is accurate?",
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      {
+        "index": 0,
+        "text": "It is possible that some generated (K+1)-itemsets can be pruned because they may contain some infrequent K-itemsets.",
+        "isCorrect": true
+      },
+      {
+        "index": 1,
+        "text": "Because we merged frequent itemsets, all the (K+1)-itemsets will be frequent.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "We cannot prune any (K+1)-itemset without calculating its support.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "correctAnswers": [
+      0
+    ]
+  }
+]
