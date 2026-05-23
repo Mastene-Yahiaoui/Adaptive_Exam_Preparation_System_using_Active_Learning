@@ -1,0 +1,41 @@
+{
+  "features": [
+    "accuracy_so_far",
+    "number_of_questions_answered_so_far",
+    "accuracy_easy_so_far",
+    "accuracy_medium_so_far",
+    "accuracy_hard_so_far",
+    "average_response_time_so_far",
+    "difficulty",
+    "num_words",
+    "qstn_complexity",
+    "num_options",
+    "avg_option_length"
+  ],
+  "state_columns": [
+    "accuracy_so_far",
+    "number_of_questions_answered_so_far",
+    "accuracy_easy_so_far",
+    "accuracy_medium_so_far",
+    "accuracy_hard_so_far",
+    "average_response_time_so_far"
+  ],
+  "difficulty_map": {
+    "easy": 0,
+    "medium": 1,
+    "hard": 2
+  },
+  "lower_threshold": 0.25,
+  "upper_threshold": 0.75,
+  "weight1": 1.0,
+  "weight2": 1.0,
+  "prior_rate": 0.5,
+  "prior_by_difficulty": {
+    "0": 0.5,
+    "1": 0.5,
+    "2": 0.5
+  },
+  "prior_response_time": 0.0,
+  "strategy": "qbc",
+  "max_quiz_length": 20
+}

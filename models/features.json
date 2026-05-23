@@ -1,0 +1,13 @@
+[
+  "accuracy_so_far",
+  "number_of_questions_answered_so_far",
+  "accuracy_easy_so_far",
+  "accuracy_medium_so_far",
+  "accuracy_hard_so_far",
+  "average_response_time_so_far",
+  "difficulty",
+  "num_words",
+  "qstn_complexity",
+  "num_options",
+  "avg_option_length"
+]
