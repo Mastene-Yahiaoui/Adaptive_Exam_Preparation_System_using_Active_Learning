@@ -4,7 +4,7 @@
 
 Traditional exams ask every student the same fixed set of questions. This system does the opposite: it selects each next question based on what it has already learned about you, stopping as soon as it has enough information to accurately estimate your knowledge level. The result is fewer questions, same accuracy.
 
-**Target:** reduce question count by 30–50% while maintaining ≥ 80% level estimation accuracy.
+**Target:** reduce question count by while maintaining ≥ 90% level estimation accuracy.
 
 ---
 
@@ -19,48 +19,37 @@ Model updates its belief about student's knowledge level
         ▼
 Active learning strategy selects the next question:
   - Which question am I most uncertain about?
-  - Which answer would reduce my uncertainty the most?
         │
         ▼
 Stop when confidence threshold is reached
         │
         ▼
-Output: estimated knowledge level + confidence score
+Output: estimated knowledge level
 ```
 
 ---
 
-## Active learning strategies implemented
+## Active Learning Strategy
 
-| Strategy | Description |
-|---|---|
-| **Uncertainty Sampling** | Ask the question the model is least sure about |
-| **Entropy-Based Selection** | Pick the question with highest prediction entropy |
-| **Query-by-Committee** | Multiple models vote; ask where they disagree most |
-| **Random Baseline** | Fixed-length quiz, random order (for comparison) |
+The core selection strategy relies on **Uncertainty Sampling (Entropy-Based Selection)**. 
+- The model prefers questions where its prediction probability is closest to 0.5. 
+- Those are considered the most informative samples because they carry the highest uncertainty (entropy).
 
----
-
-## Models for knowledge estimation
-
-- Logistic Regression
-- Naive Bayes
-- Decision Tree
-- *(extensible — any sklearn-compatible classifier)*
 
 ---
 
 ## Dataset
 
-Built on the **ASSISTments** and **EdNet** educational datasets:
+Built from **real Data Mining quizzes conducted at our school (ENSIA)**:
 
 | Property | Value |
 |---|---|
-| Students | ≥ 100 |
-| Questions | 100–200 |
-| Topics | 5–10 |
-| Features | student ID, question ID, difficulty, topic, correct/incorrect, response time |
-| Difficulty levels | Easy / Medium / Hard (balanced) |
+| Quizzes | 5 distinct quizzes |
+| Features | Student history (response time, past accuracy), Question metadata (difficulty, complexity, word count) |
+| Format | `student.csv` (responses) and `questions.csv` (metadata) |
+| Difficulty levels | Easy / Medium / Hard |
+
+The system uses features such as `accuracy_so_far`, `average_response_time_so_far`, and `last_n_correctness` together with NLP metrics from questions to estimate knowledge dynamically.
 
 ---
 
@@ -74,23 +63,18 @@ Built on the **ASSISTments** and **EdNet** educational datasets:
 
 ---
 
-## Setup
+## Project Structure
 
 ```bash
-git clone https://github.com/nacermissouni23/adaptive-exam-system
-cd adaptive-exam-system
-pip install -r requirements.txt
-```
-
-```bash
-# Run adaptive exam simulation
-python run_exam.py --strategy entropy --dataset data/assistments.csv
-
-# Compare all strategies
-python evaluate.py --all-strategies --plot
-
-# Interactive demo
-python demo.py
+Dataset/        # Contains questions.csv, student.csv, and sequential data
+models/         # Saved joblib models and scalers (entropy_*)
+notebooks/      # Jupyter notebooks for model experiments and feature engineering
+  ├── model_with_emb.ipynb
+  ├── model_without_emb.ipynb
+  ├── question_feature_engineering.ipynb
+  └── time_response_prediction.ipynb
+scripts/        # python scripts for data preprocessing
+  └── prepare_sequential_dataset.py
 ```
 
 ---
@@ -106,23 +90,3 @@ python demo.py
 - K-fold cross-validation
 - Robustness to noisy answers
 
----
-
-## Stack
-
-```
-scikit-learn    classifiers, cross-validation
-pandas / numpy  data handling, entropy computation
-matplotlib      learning curves, confusion matrices
-```
-
----
-
-## Deliverables
-
-- [x] Labeled dataset (ASSISTments + EdNet)
-- [x] Documented Jupyter notebook
-- [x] Trained adaptive models (all three strategies)
-- [x] Evaluation section with metrics and visualizations
-- [x] Live demo: real-time adaptive question selection
-- [ ] Final presentation
